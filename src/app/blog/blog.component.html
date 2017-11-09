@@ -1,0 +1,7 @@
+<div id="container" #container>
+  <div id="title">{{article.title}}</div>
+  <div id="writtenTime">{{article.strWrittenTime}}</div>
+  <div id="content" [innerHtml]="content | safeHtml"></div>
+  <a mat-button id="btn-prev-article" *ngIf="idx > 0" routerLink="/blog/{{articles[idx-1].addr}}"><i class="material-icons">keyboard_arrow_left</i> 이전 글 ({{articles[idx-1].title}})</a>
+  <a mat-button id="btn-next-article" *ngIf="articles.length - 1 > idx" routerLink="/blog/{{articles[idx+1].addr}}"><i class=" material-icons ">keyboard_arrow_right</i> 다음 글 ({{articles[idx+1].title}})</a>
+</div>

@@ -1,0 +1,18 @@
+<div id="container">
+  <div id="item">
+    <div id="item-head">
+      <div id="item-head-title">Python Data Formatter</div>
+    </div>
+    <div id="item-body">
+      <div id="desc">
+        <p>Paste the print() result of python data (Dictionary, Array, Tuple, Set)</p>
+        <p class="sample">ex) {{sample}}</p>
+      </div>
+      <mat-form-field id="input">
+        <textarea matInput matTextareaAutosize matAutosizeMinRows="3" placeholder="Paste the python data" (blur)="convert()" [(ngModel)]="input"></textarea>
+      </mat-form-field>
+      <button mat-raised-button id="convert-btn" (click)="convert()">Convert</button>
+      <div id="output" *ngIf="output"><pre>{{output}}</pre></div>
+    </div>
+  </div>
+</div>

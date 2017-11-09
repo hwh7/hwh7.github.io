@@ -1,0 +1,32 @@
+/*#toolbar {
+  position: fixed;
+  top: 0;*/
+
+
+/* Make sure the toolbar will stay on top of the content as it scrolls past. */
+
+
+/*z-index: 2;
+}
+
+#toolbar-title {
+  margin-left: 10px;
+}
+
+#sidenav-container {
+  flex: 1 0 auto;
+}
+
+#menu-list {
+    padding: 0px;
+}
+
+.menu-list-item {
+  border-bottom: 1px solid rgba(0, 0, 0, .12);
+}*/
+
+@media only screen and (max-device-width: 768px) {
+  #navbar {
+    display: none;
+  }
+}

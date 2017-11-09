@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('python-data-formatter App', () => {
+describe('blog App', () => {
   let page: AppPage;
 
   beforeEach(() => {

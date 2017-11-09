@@ -1,0 +1,29 @@
+#container {
+  color: #5e5e5e;
+  padding: 30px;
+}
+
+#item {
+  word-break: break-all;
+}
+
+#item-head-title {
+  border-bottom: 1px solid #dcdce0;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+#sample {
+  font-size: 90%;
+  color: #777;
+}
+
+#input {
+  width: 100%;
+}
+
+#output {
+  margin-top: 20px;
+}
